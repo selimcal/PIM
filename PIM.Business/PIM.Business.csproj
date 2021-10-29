@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PIM.DataAccess\PIM.DataAccess.csproj" />
+    <ProjectReference Include="..\PIM.Entity\PIM.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

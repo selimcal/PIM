@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PIM.Core.Entity.Abstract
 {
-    public interface IEntity
+    public interface IDto
     {
+
     }
 }
