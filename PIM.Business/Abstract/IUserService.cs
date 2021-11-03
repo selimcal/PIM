@@ -9,10 +9,6 @@ namespace PIM.Business.Abstract
 {
     public interface IUserService
     {
-        Task<T> GetAsync(Expression<Func<T, bool>> filter);
-        Task<IEnumerable<T>> GetListAsync(Expression<Func<T, bool>> filter = null);
-        Task<T> AddAsync(T entity);
-        Task<T> UpdateAsync(T entity);
-        Task<bool> DeleteAsync(T entity);
+
     }
 }

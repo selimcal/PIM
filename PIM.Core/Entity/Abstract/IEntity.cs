@@ -8,5 +8,6 @@ namespace PIM.Core.Entity.Abstract
 {
     public interface IEntity
     {
+
     }
 }
