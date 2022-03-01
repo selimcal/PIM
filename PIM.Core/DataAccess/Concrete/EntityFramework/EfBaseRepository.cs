@@ -27,7 +27,7 @@ namespace PIM.Core.DataAccess.Concrete.EntityFramework
                 : await context.Set<TEntity>().Where(filter).ToListAsync();
         }
 
-        public async Task<TEntity> AddAsync(TEntity entity)
+        public async Task<TEntity> InsertAsync(TEntity entity)
         {
             using var context = new TContext();
             await context.Set<TEntity>().AddAsync(entity);

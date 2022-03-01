@@ -1,5 +1,5 @@
 ﻿using System;
-using PIM.Core.Entity.Concrete;
+using PIM.Core.Entity.Abstract;
 
 namespace PIM.Entity.Concrete
 {
